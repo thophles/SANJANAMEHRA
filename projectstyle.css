@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+* {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	
+}
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+
+.links {
+	display: block;
+	font-weight: 400;
+	color: #fff;
+	font-size: 6em;
+	text-align: right;
+	padding-top: 12%;
+	padding-right: 20%;
+	text-decoration: none;
+}
+.background {
+	background-image: url("Bus Stop Billboard MockUp.jpg");
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 0;
+}
+.olympicBack {
+	background-image: url("1998_Nagano_Winter_Olympics_logo.png");
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 0;
+}
+.navbar-brand {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+	display: block;
+	font-weight: lighter;
+	color: dimgrey;
+	
+}
+.navbar-brand:active {
+	color: dimgrey;
+}
+.bold {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-weight: bold;
+}
+.description {
+	height: 100vw;
+	background-color: rgba(255, 255, 255, .7);
+	padding-left: 5%;
+	padding-top: 10%;
+	font-weight: 400;
+}
+.description h1 {
+	color:#08655B;
+	font-weight: 300;
+	letter-spacing: 3px;
+	
+}
+.description h6 {
+	font-weight: 300;
+}
+.description p {
+	padding-right: 65%;
+	font-size: .95em;
+	line-height: 1.7em;
+	color:#08655B;
+	
+}
+.firstphoto img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	align-content: center;
+}
+.photo img {
+	width: auto;
+	height: 100%;
+	position: absolute;
+	align-content: center;
+}
+img {
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.animation-element.fadeIn{
+	opacity: 0;
+	transition: all 1s linear;
+	transition-delay: 600ms;
+}
+.animation-element.fadeIn.in-view {
+	opacity: 1;	
+}
+.smallPic {
+	width: 100%;
+	height: auto;
+}
+.parent {
+	width: 30rem;
+	height: 30rem;
+	border-radius: 1%;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, .3);
+
+}
+.caption {
+	width: 9rem;
+	height: 1rem;
+	display: block;
+	margin: 0 auto;
+}
+.caption p {
+	font-size: .8em;
+}

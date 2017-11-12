@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+.navbar-custom {
+	background-color: none;
+	color:#0000;
+	border-radius: 0;
+	border: 0;
+}
+.navbar li {
+	list-style-type: none;
+}
+.navbar-brand {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+	display: block;
+	font-weight: lighter;
+	color: dimgrey;
+	
+}
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-nav > li {
+	margin-top: 4%;
+	padding: 0 20px;
+}
+.nav-pills > li > a {
+	font-size: .8em;
+	color: dimgray;
+	transition: all;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+}
+.nav-pills > li > a:hover {
+	font-size: .8em;
+	color: #09421E;
+	text-decoration: none;
+	letter-spacing: 4px;
+	background-color: transparent;
+}
+.nav-pills > li > a:focus {
+	font-size: .8em;
+	color: #08655B;
+	text-decoration: none;
+	letter-spacing: 4px;
+	background-color: transparent;
+}
+.dropdown-menu {
+	background-color: transparent;
+	border: none;
+	box-shadow: 0 0 0 0 transparent;
+}
+
+.overlay {
+	float: right;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#icon {
+	top: 3%;
+	display: inline-block;
+	position: fixed;
+	z-index: 10;
+	
+}
+#icon img {
+	width: 30px;
+	height: auto;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.overlay li {
+	list-style-type: none;
+}
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #131212;
+    display: block;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #0C3F32;
+	text-decoration: none;
+	letter-spacing: 4px;
+}
+
+.overlay .closebtn {
+    position: absolute;
+	bottom: 90%;
+    right: 70%;
+   
+}
+.navbar-brand:active {
+	color: dimgrey;
+}
+.subMenu {
+	display: none;
+	position: absolute;
+}
+.sidebar {
+	font-weight: 300;
+	font-size: .7em;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+	background-color:#fff;
+}
