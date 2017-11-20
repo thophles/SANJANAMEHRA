@@ -52,6 +52,15 @@ body {
 .eventBack {
 	background-image: url("../images/Announcement2.jpg");
 }
+.organicBack {
+	background-image: url("../images/graph sketch.jpg");
+}
+.signBack {
+	background-image: url("../images/StreetSigns.jpg");
+}
+.zineBack {
+	background-image: url("../images/1984.jpg");
+}
 .navbar-brand {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	transform: translateX(-50%);
