@@ -64,7 +64,7 @@ body {
 }
 .aboutBack {
 	background-color: #72BDAF;
-	min-height: 110%;
+	min-height: 105%;
 }
 .navbar-brand {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -83,19 +83,7 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
 }
-.description {
-	height: 100vw;
-	background-color: rgba(255, 255, 255, .7);
-	padding-left: 5%;
-	padding-top: 10%;
-	font-weight: 400;
-}
-.description h1 {
-	color:#08655B;
-	font-weight: 300;
-	letter-spacing: 3px;
-	
-}
+
 .aboutDescription {
 	height: 100vw;
 	min-height: 100%;
@@ -114,7 +102,7 @@ body {
 	font-weight: 300;
 }
 .aboutDescription p {
-	padding-right: 5%;
+	padding-right: 20%;
 	font-size: .95em;
 	line-height: 1.7em;
 	color:#08655B;
@@ -174,11 +162,12 @@ img {
 	font-size: .8em;
 }
 .aboutPic {
-	width: 60%;
-    height: auto;
+	width: 70%;
+    height: 70%;
+	position: relative;
 }
 .aboutText {
-	padding-left: 15%;
+	padding-left: 18%;
 }
  
 
@@ -189,12 +178,55 @@ img {
 }
 .aboutText h3 {
 	text-align: left;
-	color: #424141;
+	color: #fff;
 	font-size: 1.2em;
+	font-weight: 300;
 }
 .aboutlittle {
 	font-size: .8em;
 }
 .aboutBody {
 	background-color: #72BDAF;
+}
+hr {
+
+ margin-left: 0;
+}
+@media (max-width: 520px) {
+	.aboutDescription h1 {
+		text-align: center;
+	}
+	.aboutDescription p {
+		padding-right: 5%;
+	}
+	.aboutPic {
+		padding-top: 10%;
+	}	
+}
+@media (min-width: 1000px) {
+	.aboutPic {
+		transform: translateY(-10%);
+	}
+}
+@media (min-width: 765px) and (max-width: 995px) {
+	.aboutPic {
+		transform: translateY(15%);
+	}
+}
+.contactList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+.contactList li {
+	display: inline;
+}
+.email {
+	text-align: left;
+}
+.email a {
+	text-decoration: none;
+	color: #292727;
 }
