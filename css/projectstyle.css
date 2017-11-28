@@ -28,6 +28,7 @@ body {
 }
 .background {
 	height: 100vh;
+	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -84,7 +85,7 @@ body {
 	font-weight: bold;
 }
 .description {
-	min-height: 100vh;
+	min-height: 100%;
 	background-color: rgba(255, 255, 255, .7);
 	padding-left: 5%;
 	padding-top: 10%;
@@ -157,13 +158,16 @@ img {
 	font-size: .8em;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 770px) {
 	.description h1 {
 		text-align: center;
 		padding-top: 10%;
+		padding-right: 5%;
+		
 	}
 	.description h6 {
 		text-align: center;
+		padding-right: 11%;
 
 	}
 	.description p {
@@ -179,5 +183,10 @@ img {
 		text-align: center;
 		margin: 0 auto;
 		padding: 0 auto;
+	}
+}
+@media (max-width: 770px) {
+	body {
+		overflow-x: hidden;
 	}
 }

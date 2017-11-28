@@ -85,7 +85,7 @@ body {
 }
 
 .aboutDescription {
-	height: 100vw;
+	height: 100vh;
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .9);
 	padding-left: 5%;
@@ -192,7 +192,7 @@ hr {
 
  margin-left: 0;
 }
-@media (max-width: 520px) {
+@media (max-width: 770px) {
 	.aboutDescription h1 {
 		text-align: center;
 	}
@@ -201,7 +201,12 @@ hr {
 	}
 	.aboutPic {
 		padding-top: 10%;
-	}	
+		width: 60%;
+		height: auto;
+	}
+	.aboutDescription {
+		width: 103%;
+	}
 }
 @media (min-width: 1000px) {
 	.aboutPic {
