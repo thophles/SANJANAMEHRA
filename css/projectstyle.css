@@ -186,6 +186,9 @@ img {
 	}
 }
 @media (max-width: 770px) {
+	img {
+		max-width: 100%;
+	}
 	body {
 		overflow-x: hidden;
 	}
