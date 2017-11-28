@@ -5,7 +5,7 @@ html {
 }
 body {
 	height: 100%;
-	background-color: #72BDAF;
+	background-color: #fff;
 }
 * {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -84,7 +84,7 @@ body {
 	font-weight: bold;
 }
 .description {
-	height: 100vw;
+	min-height: 100vh;
 	background-color: rgba(255, 255, 255, .7);
 	padding-left: 5%;
 	padding-top: 10%;
@@ -96,29 +96,12 @@ body {
 	letter-spacing: 3px;
 	
 }
-.aboutDescription {
-	height: 100vw;
-	min-height: 100%;
-	background-color: rgba(255, 255, 255, .9);
-	padding-left: 5%;
-	padding-top: 10%;
-	font-weight: 400;
-}
-.aboutDescription h1 {
-	color:#08655B;
-	font-weight: 300;
-	letter-spacing: 3px;
-	
-}
 .description h6 {
 	font-weight: 300;
 }
-.aboutDescription p {
-	padding-right: 5%;
-	font-size: .95em;
-	line-height: 1.7em;
-	color:#08655B;
-	
+.description p{
+	color: #08655B;
+	padding-right: 60%;
 }
 .firstphoto img {
 	width: 100%;
@@ -173,28 +156,28 @@ img {
 .caption p {
 	font-size: .8em;
 }
-.aboutPic {
-	width: 60%;
-    height: auto;
-}
-.aboutText {
-	padding-left: 15%;
-}
- 
 
-.aboutText p {
-	text-align: left;
-	font-size: .9em;
-	color:#424141;
-}
-.aboutText h3 {
-	text-align: left;
-	color: #424141;
-	font-size: 1.2em;
-}
-.aboutlittle {
-	font-size: .8em;
-}
-.aboutBody {
-	background-color: #72BDAF;
+@media (max-width: 420px) {
+	.description h1 {
+		text-align: center;
+		padding-top: 10%;
+	}
+	.description h6 {
+		text-align: center;
+
+	}
+	.description p {
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-top: 10%;
+	}
+	.caption {
+		padding: 10% 0%;
+	}
+	.caption p {
+		font-size: .9em;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
 }
