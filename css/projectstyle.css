@@ -184,12 +184,13 @@ img {
 		margin: 0 auto;
 		padding: 0 auto;
 	}
-}
-@media (max-width: 770px) {
 	img {
 		max-width: 100%;
 	}
 	body {
 		overflow-x: hidden;
+	}
+	.worldmusicBack {
+		background-size: auto 100%;
 	}
 }
