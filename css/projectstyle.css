@@ -63,9 +63,24 @@ body {
 .zineBack {
 	background-image: url("../images/1984.jpg");
 }
+.fineartBack {
+	background-image: url("../images/Preserving Culture.png");
+}
+.mushiBack {
+	background-image: url("../images/mushi1.png");
+}
+.anniesBack {
+	background-image: url("../images/side3 copy.png")
+}
+.tealBack {
+	background-image: url("../images/tealside2.png");
+}
 .aboutBack {
 	background-color: #72BDAF;
 	min-height: 110%;
+}
+.cardBack {
+	background-image: url("../images/cardsMockUp.jpg");
 }
 .navbar-brand {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -94,7 +109,7 @@ body {
 .description h1 {
 	color:#08655B;
 	font-weight: 300;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	
 }
 .description h6 {
@@ -206,5 +221,18 @@ img {
 		overflow: scroll;
 	}
 }
-	
+.bodyText p{
+	color:#08655B;
+	font-size: .9em;
+	width: 100%;
+	text-align: left;
+	padding: 2% 22%;
+}
+.bodyText h3 {
+	color:#08655B;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding: 0 auto;
+	text-align: center;
+}
 	
