@@ -11,10 +11,6 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	
 }
-.animation-element {
-  opacity: 0;
-  position: relative;
-}
 
 .links {
 	display: block;
@@ -35,33 +31,7 @@ body {
 	position: relative;
 	top: 0;
 }
-.olympicBack {
-	background-image: url("../images/1998_Nagano_Winter_Olympics_logo.png");
-}
-.worldmusicBack {
-	background-image: url("../images/Bus Stop Billboard MockUp.jpg");
-}
-.abstractBack {
-	background-image: url("../images/For the love of type!.jpg");
-}
-.conquestBack {
-	background-image: url("../images/conquest1.png");
-}
-.gridBack {
-	background-image: url("../images/A4 Paper PSD MockUp 4.jpg")
-}
-.eventBack {
-	background-image: url("../images/Announcement2.jpg");
-}
-.organicBack {
-	background-image: url("../images/graph sketch.jpg");
-}
-.signBack {
-	background-image: url("../images/StreetSigns.jpg");
-}
-.zineBack {
-	background-image: url("../images/1984.jpg");
-}
+
 .aboutBack {
 	background-color: #72BDAF;
 	min-height: 105%;
@@ -123,7 +93,6 @@ body {
 img {
 	display: block;
 	align-content: center;
-	margin: 0 auto;
 	padding: 0 auto;
 }
 .animation-element.fadeIn{
@@ -195,6 +164,7 @@ hr {
 @media (max-width: 770px) {
 	.aboutDescription h1 {
 		text-align: center;
+		padding-right: 5%;
 	}
 	.aboutDescription p {
 		padding-right: 5%;
@@ -218,18 +188,30 @@ hr {
 		transform: translateY(15%);
 	}
 }
+@media (min-width: 460px) and (max-width: 995px) {
+	.aboutPic {
+		width: 30%;
+		height: 30%;
+	}
+}
 .contactList {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	float: left;
 	display: inline;
+	text-align: left;
 }
+.email img {
+	padding: 0;
+	margin: 0;
+}
+
 .contactList li {
 	display: inline;
-}
-.email {
 	text-align: left;
+	padding: 0;
+	margin: 0;
 }
 .email a {
 	text-decoration: none;

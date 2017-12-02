@@ -11,43 +11,39 @@
 <body>
 	<div id="myNav" class="overlay">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/xIcon.png" height="18px" width="auto"></a>
-  				<div class="overlay-content">
-   				
-      
-      <ul class="nav nav-pills nav-stacked" id="stacked-menu">
-        <li class="dropdown">
-          <a id="design" class="nav-container" data-toggle="collapse" data-parent="#stacked-menu" href="#p1" onmouseover="change()">DESIGN</a>    
-          
-          <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p1">
-            <li data-toggle="collapse" data-parent="#p1" href="#pv1">
-              <a class="nav-sub-container closed"></a></li>
-              <ul class="nav nav-pills nav-stacked collapse in" id="pv1">
-			   <li><a href="html/mushi.html">Graffiti Package</a></li>
-			   <li><a href="html/SIGNS.html">Signs Poster</a></li>
-			   <li><a href="html/zinePosters.html">Zine Posters</a></li>
-			   <li><a href="html/organic.html">Organic Inspection</a></li>
-			   <li><a href="html/annies.html">Organic Mac and Cheese Packaging</a></li>
-			   <li><a href="html/tealAnnies.html">Teal Mac and Cheese Packaging</a></li>
-			   <li><a href="html/cardDeck.html">Deck of Cards</a></li>
-			   <li><a href="html/olympics.html">Olympics Poster</a></li>
-			   <li><a href="html/conquest.html">Conquest</a></li>
-               <li><a href="html/abstractComposition.html">Abstract Compositions</a></li>
-				 
-              </ul>    
-          </ul>
-          
-        </li>
-        <li class="dropdown">
-          <a class="nav-container category" data-toggle="collapse" data-parent="#stacked-menu" href="#p2">TYPOGRAPHY</a>          
-          <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p2">
-            <li><a href="html/openEvent.html">Opening Event Announcement</a></li>
-            <li><a href="html/gridAndDesign.html">Grid and Design Philosphy Poster</a></li>
-			  <li><a href="html/worldmusic.html">World Music Wednesdays</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-container category" href="html/fineArts.html">FINE ARTS</a></li>
-        <li><a class="nav-container category" href="html/about.html">ABOUT</a></li>
-      </ul>
+  			<div class="overlay-content">
+			  <ul class="nav nav-pills nav-stacked" id="stacked-menu">
+				<li class="dropdown">
+				  <a id="design" class="nav-container" data-hover="dropdown" data-parent="#stacked-menu" href="#p1">DESIGN</a>    
+
+				  <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p1">
+					<li data-hover="dropdown" data-parent="#p1" href="#pv1">
+					  <a class="nav-sub-container closed"></a></li>
+					  <ul class="nav nav-pills nav-stacked collapse in" id="pv1">
+					   <li><a href="html/mushi.html">Graffiti Package</a></li>
+					   <li><a href="html/SIGNS.html">Signs Poster</a></li>
+					   <li><a href="html/zinePosters.html">Zine Posters</a></li>
+					   <li><a href="html/organic.html">Organic Inspection</a></li>
+					   <li><a href="html/annies.html">Organic Mac and Cheese Packaging</a></li>
+					   <li><a href="html/tealAnnies.html">Teal Mac and Cheese Packaging</a></li>
+					   <li><a href="html/cardDeck.html">Deck of Cards</a></li>
+					   <li><a href="html/olympics.html">Olympics Poster</a></li>
+					   <li><a href="html/conquest.html">Conquest</a></li>
+					   <li><a href="html/abstractComposition.html">Abstract Compositions</a></li>
+					  </ul>    
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a class="nav-container category" data-hover="dropdown" data-parent="#stacked-menu" href="#p2">TYPOGRAPHY</a>          
+				  <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p2">
+					<li><a href="html/openEvent.html">Opening Event Announcement</a></li>
+					<li><a href="html/gridAndDesign.html">Grid and Design Philosphy Poster</a></li>
+					  <li><a href="html/worldmusic.html">World Music Wednesdays</a></li>
+				  </ul>
+				</li>
+				<li><a class="nav-container category" href="html/fineArts.html">FINE ARTS</a></li>
+				<li><a class="nav-container category" href="html/about.html">ABOUT</a></li>
+			  </ul>
     
       
     </div>   				
@@ -155,6 +151,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
+<script src="bootstrap/bootstrap-hover-dropdown.min.js"></script>
 <script>
 
 

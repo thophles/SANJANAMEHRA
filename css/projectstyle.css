@@ -145,6 +145,9 @@ img {
 .animation-element.fadeIn.in-view {
 	opacity: 1;	
 }
+.nav .open>a, .nav .open>a:hover {
+	background-color: #fff;
+}
 .smallPic {
 	width: 100%;
 	height: auto;
@@ -174,6 +177,9 @@ img {
 }
 
 @media (max-width: 770px) {
+	.mobileView {
+		padding-bottom: 5%;
+	}
 	.description h1 {
 		text-align: center;
 		padding-top: 10%;

@@ -32,6 +32,9 @@ body {
 .navbar-brand:hover {
 	color: white;
 }
+.nav .open>a, .nav .open>a:hover {
+	background-color: #9BC7C3;
+}
 .bold {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
@@ -69,18 +72,18 @@ body {
 	font-size: .8em;
 	color: #fff;
 	text-decoration: none;
-	letter-spacing: 4px;
-	background-color: transparent;
+	letter-spacing: 2px;
+	background-color: #9BC7C3;
 }
 .nav-pills > li > a:focus {
 	font-size: .8em;
 	color: #08655B;
 	text-decoration: none;
 	letter-spacing: 4px;
-	background-color: transparent;
+	background-color: #9BC7C3;
 }
 .dropdown-menu {
-	background-color: transparent;
+	background-color: #9BC7C3;
 	border: none;
 	box-shadow: 0 0 0 0 transparent;
 }
@@ -172,29 +175,7 @@ body {
 .navbar-brand:active {
 	color: dimgrey;
 }
-.subMenu {
-	display: none;
-	position: absolute;
-}
-.sidebar {
-	font-weight: 300;
-	font-size: .7em;
-}
-.sidebar:hover .subMenu {
-	display: block;
-	background-color: #fff;
-}
-.sidebar:hover .subMenu {
-	display: block;
-}
-.sidebar:hover .sidebar3 {
-	padding-top: 5%;
-}
-.dropdown:hover .dropdown-menu {
-	display: block;
-	margin-top: 0;
-	background-color:#9BC7C3;
-}
+
 .mobileHome {
 	display: none;
 }

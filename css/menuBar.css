@@ -38,18 +38,18 @@
 	font-size: .8em;
 	color: #09421E;
 	text-decoration: none;
-	letter-spacing: 4px;
-	background-color: transparent;
+	letter-spacing: 2px;
+	background-color: #fff;
 }
 .nav-pills > li > a:focus {
 	font-size: .8em;
 	color: #08655B;
 	text-decoration: none;
-	letter-spacing: 4px;
-	background-color: transparent;
+	letter-spacing: 2px;
+	background-color: #fff;
 }
 .dropdown-menu {
-	background-color: transparent;
+	background-color: #fff;
 	border: none;
 	box-shadow: 0 0 0 0 transparent;
 }
@@ -71,8 +71,7 @@
 	top: 3%;
 	display: inline-block;
 	position: fixed;
-	z-index: 10;
-	
+	z-index: 10;	
 }
 #icon img {
 	width: 30px;
@@ -102,14 +101,12 @@
 .overlay a:hover, .overlay a:focus {
     color: #0C3F32;
 	text-decoration: none;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
-
 .overlay .closebtn {
     position: absolute;
 	bottom: 90%;
-    right: 70%;
-   
+    right: 70%;   
 }
 .navbar-brand:active {
 	color: dimgrey;
@@ -117,14 +114,5 @@
 .subMenu {
 	display: none;
 	position: absolute;
-}
-.sidebar {
-	font-weight: 300;
-	font-size: .7em;
-}
 
-.dropdown:hover .dropdown-menu {
-	display: block;
-	margin-top: 0;
-	background-color:#fff;
 }
