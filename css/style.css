@@ -35,9 +35,6 @@ body {
 .nav .open>a, .nav .open>a:hover {
 	background-color:#AAE8E0;
 }
-.dropdown ul {
-	background-color:#AAE8E0;
-}
 .bold {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
@@ -47,10 +44,7 @@ body {
 	width: 60vw;
 	border-radius: 5%;
 }
-.otherWrapper {
-	height: 100vh;
-	width: 60vw;
-}
+
 .navbar-right {
 	float: right;
 	position: relative;
@@ -60,34 +54,82 @@ body {
 .navbar-right > li {
 	display: inline;
 }
-.navbar-nav > li {
-	margin-top: 4%;
+.navbar-custom {
+	background-color: none;
+	color:#0000;
+	border-radius: 0;
+	border: 0;
 }
+.navbar li {
+	list-style-type: none;
+}
+.navbar-brand:hover {
+	color: white;
+}
+
 .nav-pills > li > a {
 	font-size: .8em;
 	color: dimgray;
 	transition: all;
 	transition-duration: 200ms;
 	transition-timing-function: ease-in;
+	padding-left: 15%;
+	padding-right: 0%;
 }
-.nav-pills > li > a:hover {
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
 	font-size: .8em;
 	color: #fff;
 	text-decoration: none;
 	letter-spacing: 2px;
-	background-color:#AAE8E0;
+	background-color: #AAE8E0;
 }
-.nav-pills > li > a:focus {
-	font-size: .8em;
-	color: #08655B;
-	text-decoration: none;
-	letter-spacing: 4px;
-	background-color:#AAE8E0;
+.subLinks {
+	padding-top: 2% !important; 
+	transition: none !important;
+}
+.subLinks:hover, .subLinks:focus {
+	letter-spacing: 0 !important;
 }
 .dropdown-menu {
 	background-color: #AAE8E0;
 	border: none;
 	box-shadow: 0 0 0 0 transparent;
+}
+
+.overlay {
+	float: right;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #AAE8E0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.overlay li {
+	list-style-type: none;
+}
+
+.overlay .closebtn {
+    position: absolute;
+	bottom: 90%;
+    right: 70%;   
+}
+.navbar-brand:active {
+	color: dimgrey;
+}
+.category {
+	padding-left: 15% !important;
 }
 .parent {
 	position: relative;
@@ -110,19 +152,6 @@ body {
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
-.overlay {
-	float: right;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#AAE8E0;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
 #icon {
 	top: 3%;
 	display: inline-block;

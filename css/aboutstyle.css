@@ -5,7 +5,7 @@ html {
 }
 body {
 	height: 100%;
-	background-color: #72BDAF;
+	background-color: #AAE8E0;
 }
 * {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -33,7 +33,7 @@ body {
 }
 
 .aboutBack {
-	background-color: #72BDAF;
+	background-color: #AAE8E0;
 	min-height: 105%;
 }
 .navbar-brand {
@@ -95,14 +95,6 @@ img {
 	align-content: center;
 	padding: 0 auto;
 }
-.animation-element.fadeIn{
-	opacity: 0;
-	transition: all 1s linear;
-	transition-delay: 600ms;
-}
-.animation-element.fadeIn.in-view {
-	opacity: 1;	
-}
 .smallPic {
 	width: 100%;
 	height: auto;
@@ -138,8 +130,6 @@ img {
 .aboutText {
 	padding-left: 18%;
 }
- 
-
 .aboutText p {
 	text-align: left;
 	font-size: 1em;
@@ -216,4 +206,17 @@ hr {
 .email a {
 	text-decoration: none;
 	color: #292727;
+}
+.cv {
+	text-decoration: none;
+	color:#08655B;
+	font-size: 1.4em;
+	transition: all;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+}
+.cv:hover, .cv:focus {
+	text-decoration: none;
+	color:#08655B;
+	letter-spacing: 2px;
 }
