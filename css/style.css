@@ -3,7 +3,7 @@ html {
 	height: 100%;
 }
 body {
-	background-color:#9BC7C3;
+	background-color:#AAE8E0;
 	height: 100%;
 }
 * {
@@ -33,7 +33,10 @@ body {
 	color: white;
 }
 .nav .open>a, .nav .open>a:hover {
-	background-color: #9BC7C3;
+	background-color:#AAE8E0;
+}
+.dropdown ul {
+	background-color:#AAE8E0;
 }
 .bold {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -59,7 +62,6 @@ body {
 }
 .navbar-nav > li {
 	margin-top: 4%;
-	padding: 0 20px;
 }
 .nav-pills > li > a {
 	font-size: .8em;
@@ -73,17 +75,17 @@ body {
 	color: #fff;
 	text-decoration: none;
 	letter-spacing: 2px;
-	background-color: #9BC7C3;
+	background-color:#AAE8E0;
 }
 .nav-pills > li > a:focus {
 	font-size: .8em;
 	color: #08655B;
 	text-decoration: none;
 	letter-spacing: 4px;
-	background-color: #9BC7C3;
+	background-color:#AAE8E0;
 }
 .dropdown-menu {
-	background-color: #9BC7C3;
+	background-color: #AAE8E0;
 	border: none;
 	box-shadow: 0 0 0 0 transparent;
 }
@@ -102,13 +104,6 @@ body {
 	height: 100%;
 }
 
-#red {
-	background-color: #ec7525;
-	
-}
-#blue {
-	background-color: #5978a7;
-}
 .carousel-indicators li {
 	visibility: hidden;
 }
@@ -123,7 +118,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color:#AAE8E0;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -196,7 +191,7 @@ body {
 		height: auto;
 	}
 	.overlay {
-		background-color: #9BC7C3; 
+		background-color:#AAE8E0;
 	}
 	
 }

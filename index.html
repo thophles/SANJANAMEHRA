@@ -14,7 +14,7 @@
   			<div class="overlay-content">
 			  <ul class="nav nav-pills nav-stacked" id="stacked-menu">
 				<li class="dropdown">
-				  <a id="design" class="nav-container" data-hover="dropdown" data-parent="#stacked-menu" href="#p1">DESIGN</a>    
+				  <a id="design" class="nav-container" data-hover="dropdown" data-parent="#stacked-menu" href="#p1">DESIGN</a>
 
 				  <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p1">
 					<li data-hover="dropdown" data-parent="#p1" href="#pv1">
@@ -33,8 +33,8 @@
 					  </ul>    
 				  </ul>
 				</li>
-				<li class="dropdown">
-				  <a class="nav-container category" data-hover="dropdown" data-parent="#stacked-menu" href="#p2">TYPOGRAPHY</a>          
+				<li class="dropdown2">
+				  <a id="type" class="nav-container category" data-hover="dropdown" data-parent="#stacked-menu" href="#p2">TYPOGRAPHY</a>          
 				  <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p2">
 					<li><a href="html/openEvent.html">Opening Event Announcement</a></li>
 					<li><a href="html/gridAndDesign.html">Grid and Design Philosphy Poster</a></li>
@@ -153,8 +153,6 @@
 <script src="bootstrap/bootstrap.min.js"></script>
 <script src="bootstrap/bootstrap-hover-dropdown.min.js"></script>
 <script>
-
-
 function openNav() {
     document.getElementById("myNav").style.width = "250px";
 	document.getElementById("icon").style.display = "none";
@@ -166,6 +164,17 @@ function closeNav() {
 	document.getElementById("icon").style.display = "block";
 }
 
-	</script>
+</script>
+<script>
+		$('#design').click(function (e) {
+			$('.dropdown').toggleClass("open");
+			e.preventDefault();
+		});
+	 	$('#type').click(function (e) {
+			$('.dropdown2').toggleClass("open");
+			e.preventDefault();
+		});
+
+</script>
 </body>
 </html>

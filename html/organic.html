@@ -20,42 +20,29 @@
 		<div id="myNav" class="overlay">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="../images/xIcon.png" height="18px" width="auto"></a>
   				<div class="overlay-content">
-   				
-      
-     <ul class="nav nav-pills nav-stacked" id="stacked-menu">
-        <li class="dropdown">
-          <a id="design" class="nav-container" data-hover="dropdown" data-parent="#stacked-menu" href="#p1" >DESIGN</a>    
-          
-          <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p1">
-            <li data-hover="dropdown" data-parent="#p1" href="#pv1">
-              <a class="nav-sub-container closed"></a></li>
-              <ul class="nav nav-pills nav-stacked collapse in" id="pv1">
-			   <li><a href="mushi.html">Graffiti Package</a></li>
-			   <li><a href="SIGNS.html">Signs Poster</a></li>
-			   <li><a href="zinePosters.html">Zine Posters</a></li>
-			   <li><a href="organic.html">Organic Inspection</a></li>
-			   <li><a href="annies.html">Organic Mac and Cheese Packaging</a></li>
-			   <li><a href="tealAnnies.html">Teal Mac and Cheese Packaging</a></li>
-			   <li><a href="cardDeck.html">Deck of Cards</a></li>
-			   <li><a href="olympics.html">Olympics Poster</a></li>
-			   <li><a href="conquest.html">Conquest</a></li>
-               <li><a href="abstractComposition.html">Abstract Compositions</a></li>
-				 
-              </ul>    
-          </ul>
-          
-        </li>
-        <li class="dropdown">
-          <a class="nav-container category" data-hover="dropdown" data-parent="#stacked-menu" href="#p2">TYPOGRAPHY</a>          
-          <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p2">
-            <li><a href="hopenEvent.html">Opening Event Announcement</a></li>
-            <li><a href="gridAndDesign.html">Grid and Design Philosphy Poster</a></li>
-			  <li><a href="worldmusic.html">World Music Wednesdays</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-container category" href="fineArts.html">FINE ARTS</a></li>
-        <li><a class="nav-container category" href="about.html">ABOUT</a></li>
-      </ul>
+                    <ul class="nav nav-pills nav-stacked" id="stacked-menu">
+						<li id="drop" class="dropdown">
+						  <a id="design" class="dropdown-toggle nav-container category" data-hover="dropdown" data-toggle="dropdown" href="p1">DESIGN</a>    
+
+						  <ul class="nav nav-pills nav-stacked collapse dropdown-menu" id="p1">
+							  <ul class="nav nav-pills nav-stacked collapse in" id="pv1">
+							   <li><a class="subLinks" href="SIGNS.html">Signs Poster</a></li>
+							   <li><a class="subLinks" href="worldmusic.html">World Music Wednesdays</a></li>
+							   <li><a class="subLinks" href="organic.html">Organic Inspection</a></li>
+							   <li><a class="subLinks" href="annies.html">Organic Mac and Cheese Packaging</a></li>
+							   <li><a class="subLinks" href="tealAnnies.html">Teal Mac and Cheese Packaging</a></li>
+							   <li><a class="subLinks" href="cardDeck.html">Deck of Cards</a></li>
+							   <li><a class="subLinks" href="olympics.html">Olympics Poster</a></li>
+							   <li><a class="subLinks" href="conquest.html">Conquest</a></li>
+							   <li><a class="subLinks" href="specimen.html">Type Specimen</a></li>
+							   <li><a class="subLinks" href="untitled.html">Untitled Magazine</a></li>	 
+							  </ul>    
+						  </ul>
+
+					   </li>
+						<li><a class="nav-container category" href="fineArts.html">FINE ARTS</a></li>
+						<li><a class="nav-container category" href="about.html">ABOUT</a></li>
+					  </ul>
       
     </div>   				
  </div>
@@ -114,26 +101,11 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 	document.getElementById("icon").style.display = "block";
 }
-/*	
-var mainList = document.querySelectorAll(".sidebar-nav");
-var subList = document.querySelectorAll(".subMenu");
-	
-	for (var i = 0; i < subList.length; i++) {
-	
-		mainList[i].addEventListener('mouseover', function() {
-		
-	    subList[i].style.display = "block";
-		
-	}, false);
-		
-	}
-*/	 
-   
 	
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../javascript/project.js"></script>
 <script src="../bootstrap/bootstrap-hover-dropdown.min.js"></script>
-
+<script src="../javascript/mobile.js"></script>
 </body>
 </html>

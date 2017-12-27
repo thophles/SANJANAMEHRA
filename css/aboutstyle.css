@@ -142,7 +142,7 @@ img {
 
 .aboutText p {
 	text-align: left;
-	font-size: .9em;
+	font-size: 1em;
 	color:#424141;
 }
 .aboutText h3 {
@@ -152,7 +152,7 @@ img {
 	font-weight: 300;
 }
 .aboutlittle {
-	font-size: .8em;
+	font-size: .9em;
 }
 .aboutBody {
 	background-color: #72BDAF;
