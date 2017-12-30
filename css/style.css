@@ -42,9 +42,11 @@ body {
 .wrapper {
 	height: 60vh;
 	width: 60vw;
-	border-radius: 5%;
 }
-
+.otherWrapper {
+	height: 100%;
+	width: 30%;
+}
 .navbar-right {
 	float: right;
 	position: relative;

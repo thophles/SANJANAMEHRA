@@ -59,7 +59,7 @@ body {
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .9);
 	padding-left: 5%;
-	padding-top: 10%;
+	padding-top: 8%;
 	font-weight: 400;
 }
 .aboutDescription h1 {
@@ -69,8 +69,9 @@ body {
 	
 }
 .aboutDescription p {
-	padding-right: 20%;
-	font-size: .95em;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	font-size: 1.4em;
 	line-height: 1.7em;
 	font-weight: 700;
 	color:#08655B;
@@ -121,9 +122,11 @@ img {
 	font-size: .8em;
 }
 .aboutPic {
+	
 	width: 70%;
-    height: 70%;
+    height: auto;
 	position: relative;
+	margin-top: 5%;
 }
 .aboutText {
 	padding-left: 18%;
@@ -156,14 +159,18 @@ hr {
 	}
 	.aboutDescription p {
 		padding-right: 5%;
+		font-size: 1em;
 	}
 	.aboutPic {
-		padding-top: 10%;
+		padding-top: 8%;
 		width: 60%;
 		height: auto;
 	}
 	.aboutDescription {
 		width: 103%;
+	}
+	.aboutPic {
+		transform: translateY(-5%);
 	}
 }
 @media (min-width: 1000px) {
@@ -173,15 +180,35 @@ hr {
 }
 @media (min-width: 765px) and (max-width: 995px) {
 	.aboutPic {
-		transform: translateY(15%);
+		transform: translateY(10%);
+		width: 300px;
+		height: auto;
 	}
 }
-@media (min-width: 460px) and (max-width: 995px) {
+@media (min-width: 460px) and (max-width: 1045px) {
 	.aboutPic {
-		width: 30%;
-		height: 30%;
+	    width: 300px;
+		height: auto;
+	}
+	.aboutDescription p {
+		padding-right: 5%;
+		font-size: 1.2em;
 	}
 }
+@media (min-width: 1035px) and (max-width: 1250px) {
+	.aboutPic {
+	    width: 300px;
+		height: auto;
+		padding-top: 15%;
+	}
+}
+/*
+@media (min-width: 760px) and (max-width: 1050px) {
+	.aboutPic {
+		width: 300px;
+	}
+*/
+
 .contactList {
 	list-style: none;
 	margin: 0;

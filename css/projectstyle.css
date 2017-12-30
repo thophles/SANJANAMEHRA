@@ -110,7 +110,7 @@ body {
 }
 .description {
 	min-height: 100%;
-	background-color: rgba(255, 255, 255, .7);
+	background-color: rgba(255, 255, 255, .9);
 	padding-left: 5%;
 	padding-top: 8%;
 	font-weight: 400;
