@@ -112,23 +112,49 @@ body {
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .7);
 	padding-left: 5%;
-	padding-top: 10%;
+	padding-top: 8%;
 	font-weight: 400;
 }
 .description h1 {
 	color:#08655B;
-	font-weight: 300;
+	font-weight: 700;
 	letter-spacing: 1px;
 	
 }
 .description h6 {
-	font-weight: 300;
+	font-weight: 700;
+	font-size: 1.3em;
 }
 .description p{
 	color: #08655B;
-	padding-right: 60%;
-	font-size: 1em;
+	padding-right: 5%;
+	font-size: 2em;
 	line-height: 1.6em;
+	font-weight: 700;
+}
+.worldDescription {
+	min-height: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	padding-left: 5%;
+	padding-top: 8%;
+	font-weight: 400;
+}
+.worldDescription h1 {
+	color:#08655B;
+	font-weight: 700;
+	letter-spacing: 1px;
+	
+}
+.worldDescription h6 {
+	font-weight: 700;
+	font-size: 1.3em;
+}
+.worldDescription p{
+	color: #08655B;
+	padding-right: 5%;
+	font-size: 2em;
+	line-height: 1.6em;
+	font-weight: 700;
 }
 .firstphoto img {
 	width: 100%;
@@ -202,13 +228,13 @@ img {
 	.mobileView {
 		padding-bottom: 5%;
 	}
-	.description h1 {
+	.description h1, .worldDescription h1  {
 		text-align: center;
 		padding-top: 10%;
 		padding-right: 5%;
 		
 	}
-	.description h6 {
+	.description h6, .worldDescription h6 {
 		text-align: center;
 		padding-right: 11%;
 
@@ -217,6 +243,13 @@ img {
 		padding-right: 10%;
 		padding-left: 5%;
 		padding-top: 10%;
+		font-size: 1.3em;
+	}
+	.worldDescription p {
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-top: 10%;
+		font-size: 1.1em;
 	}
 	.caption {
 		padding: 10% 0%;
