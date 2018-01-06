@@ -231,7 +231,7 @@ hr {
 	color:#08655B;
 	letter-spacing: 2px;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
 	.aboutText p {
 	font-size: 1.3em;
 }
