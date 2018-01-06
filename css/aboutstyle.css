@@ -5,7 +5,6 @@ html {
 }
 body {
 	height: 100%;
-	overflow-y: hidden;
 	background-color: #AAE8E0;
 }
 * {
@@ -113,15 +112,6 @@ img {
 	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, .3);
 
 }
-.caption {
-	width: 9rem;
-	height: 1rem;
-	display: block;
-	margin: 0 auto;
-}
-.caption p {
-	font-size: .8em;
-}
 .aboutPic {
 	
 	width: 70%;
@@ -203,12 +193,6 @@ hr {
 		padding-top: 15%;
 	}
 }
-/*
-@media (min-width: 760px) and (max-width: 1050px) {
-	.aboutPic {
-		width: 300px;
-	}
-*/
 
 .contactList {
 	list-style: none;
@@ -246,4 +230,9 @@ hr {
 	text-decoration: none;
 	color:#08655B;
 	letter-spacing: 2px;
+}
+@media (min-width: 2000px) {
+	.aboutText p {
+	font-size: 1.3em;
+}
 }
