@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
 	height: 100%;
+	overflow-y: hidden;
 }
 body {
 	background-color:#AAE8E0;
@@ -49,11 +50,11 @@ body {
 	position: relative;
 	z-index: -1;
 	left: 20%;
-	bottom: 74%;
+	bottom: 65%;
 }
 .shape {
 	width: 100%;
-	height: 100vh;
+	height: 94vh;
 	background-color: chocolate;
 }
 #orange {
@@ -230,6 +231,9 @@ body {
 	}
 	.overlay {
 		background-color:#AAE8E0;
+	}
+	html {
+		overflow-y: scroll;
 	}
 	
 }
