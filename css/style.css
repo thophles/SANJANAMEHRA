@@ -262,10 +262,10 @@ body {
 }
 @media (min-width: 1400px) and (max-width: 1489px){
 	.shape {
-		height: 78vh;
+		height: 82vh;
 		max-height: 900px;
 		position: relative;
-		transform: translateY(5%);
+		transform: translateY(4%);
 	}
 	.wrapper {
 		position: relative;
