@@ -260,22 +260,23 @@ body {
 		height: 80vh;
 	}
 }
-@media (min-width: 1400px) and (max-width: 1400px){
+@media (min-width: 1400px) and (max-width: 1489px){
 	.shape {
-		height: 76vh;
-		max-height: 850px;
+		height: 78vh;
+		max-height: 900px;
 		position: relative;
 		transform: translateY(5%);
 	}
 	.wrapper {
 		position: relative;
+		width: 900px;
 		top: 6%;
 	}
 	.otherWrapper {
-		bottom: 63%;
+		bottom: 60%;
 	}
 }
-@media (min-width: 1401px) and (max-width: 1600px) {
+@media (min-width: 1490px) and (max-width: 1600px) {
 	.shape {
 		height: 68vh;
 		max-height: 850px;
