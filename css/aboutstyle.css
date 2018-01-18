@@ -231,8 +231,65 @@ hr {
 	color:#08655B;
 	letter-spacing: 2px;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1350px) and (max-width: 1420px) {
+	.aboutPic {
+	    width: 550px;
+		height: auto;
+	}
+}
+@media (min-width: 1400px) {
+	.aboutText p {
+	font-size: 1.3em;
+	}
+	.aboutPic {
+	    width: 600px;
+		height: auto;
+	}
+	.aboutDescription p {
+		padding-right: 5%;
+		font-size: 1.7em;
+	}
+	.cv {
+		font-size: 1.7em;
+	}
+}
+@media (min-width: 1750px) {
 	.aboutText p {
 	font-size: 1.2em;
+	}
+	.aboutPic {
+	    width: 5500px;
+		height: auto;
+	}
+	.aboutDescription p {
+		padding-right: 5%;
+		font-size: 1.9em;
+	}
+	.para {
+		position: relative;
+		right: 8%;
+	}
+	.cv {
+		font-size: 1.7em;
+	}
 }
+@media (min-width: 1900px) {
+	.aboutText p {
+	font-size: 1.4em;
+	}
+	.aboutText h3 {
+	font-size: 1.5em;	
+	}
+	.aboutPic {
+	    width: 700px;
+		height: auto;
+	}
+	.aboutDescription p {
+		padding-right: 5%;
+		font-size: 2em;
+	}
+	.cv {
+		font-size: 1.8em;
+	}
+
 }
