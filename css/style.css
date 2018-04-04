@@ -4,12 +4,12 @@ html {
 	overflow-y: hidden;
 }
 body {
-	background-color:#AAE8E0;
+	background-color:#fff;
 	height: 100%;
 }
 * {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	
+
 }
 .navbar-custom {
 	background-color: none;
@@ -28,7 +28,7 @@ body {
 	display: block;
 	font-weight: lighter;
 	color: dimgrey;
-	
+
 }
 .navbar-brand:hover {
 	color: white;
@@ -109,7 +109,7 @@ body {
 	background-color: #AAE8E0;
 }
 .subLinks {
-	padding-top: 2% !important; 
+	padding-top: 2% !important;
 	transition: none !important;
 }
 .subLinks:hover, .subLinks:focus {
@@ -148,7 +148,7 @@ body {
 .overlay .closebtn {
     position: absolute;
 	bottom: 90%;
-    right: 70%;   
+    right: 70%;
 }
 .navbar-brand:active {
 	color: dimgrey;
@@ -168,7 +168,7 @@ body {
 	display: inline-block;
 	position: fixed;
 	z-index: 10;
-	
+
 }
 #icon img {
 	width: 30px;
@@ -205,7 +205,7 @@ body {
     position: absolute;
 	bottom: 90%;
     right: 70%;
-   
+
 }
 .navbar-brand:active {
 	color: dimgrey;
@@ -236,7 +236,7 @@ body {
 	html {
 		overflow-y: scroll;
 	}
-	
+
 }
 @media (min-width: 800px) and (max-width: 1000px) {
 	.wrapper {

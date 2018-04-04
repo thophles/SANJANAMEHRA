@@ -5,11 +5,11 @@ html {
 }
 body {
 	height: 100%;
-	background-color: #AAE8E0;
+	background-color: #fff;
 }
 * {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	
+
 }
 
 .links {
@@ -33,7 +33,7 @@ body {
 }
 
 .aboutBack {
-	background-color: #AAE8E0;
+	background-color: #fff;
 	min-height: 100%;
 }
 .navbar-brand {
@@ -44,7 +44,7 @@ body {
 	display: block;
 	font-weight: lighter;
 	color: dimgrey;
-	
+
 }
 .navbar-brand:active {
 	color: dimgrey;
@@ -66,7 +66,7 @@ body {
 	color:#08655B;
 	font-weight: 700;
 	letter-spacing: 3px;
-	
+
 }
 .aboutDescription p {
 	padding-right: 10%;
@@ -75,7 +75,7 @@ body {
 	line-height: 1.7em;
 	font-weight: 700;
 	color:#08655B;
-	
+
 }
 .firstphoto img {
 	width: 100%;
@@ -113,9 +113,9 @@ img {
 
 }
 .aboutPic {
-	
+
 	width: 70%;
-    height: auto;
+  height: auto;
 	position: relative;
 	margin-top: 5%;
 }
@@ -129,7 +129,7 @@ img {
 }
 .aboutText h3 {
 	text-align: left;
-	color: #fff;
+	color: #AAE8E0;
 	font-size: 1.2em;
 	font-weight: 300;
 }
@@ -278,7 +278,7 @@ hr {
 	font-size: 1.4em;
 	}
 	.aboutText h3 {
-	font-size: 1.5em;	
+	font-size: 1.5em;
 	}
 	.aboutPic {
 	    width: 700px;
