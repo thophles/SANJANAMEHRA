@@ -75,7 +75,9 @@ body {
 	line-height: 1.7em;
 	font-weight: 700;
 	color:#08655B;
-
+}
+.rightCol {
+	padding-left: 11% !important;
 }
 .firstphoto img {
 	width: 100%;
@@ -120,7 +122,7 @@ img {
 	margin-top: 5%;
 }
 .aboutText {
-	padding-left: 18%;
+	padding-left: 5%;
 }
 .aboutText p {
 	text-align: left;
@@ -135,6 +137,9 @@ img {
 }
 .aboutlittle {
 	font-size: .9em;
+}
+.topPad {
+	padding-top: 8px;
 }
 .aboutBody {
 	background-color: #72BDAF;
@@ -188,7 +193,7 @@ hr {
 }
 @media (min-width: 1035px) and (max-width: 1250px) {
 	.aboutPic {
-	    width: 300px;
+	  width: 350px;
 		height: auto;
 		padding-top: 15%;
 	}
