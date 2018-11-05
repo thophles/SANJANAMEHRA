@@ -286,6 +286,10 @@ hr
 }
 @media (min-width: 1400px)
 {
+	em
+	{
+		left: 130px;
+	}
 	.aboutText p
 	{
 	font-size: 1.3em;
