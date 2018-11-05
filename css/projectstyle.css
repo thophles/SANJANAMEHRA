@@ -72,25 +72,9 @@ body
 {
 	background-image: url("../images/StreetSigns.jpg");
 }
-.zineBack
-{
-	background-image: url("../images/1984.jpg");
-}
-.fineartBack
-{
-	background-image: url("../images/Preserving Culture.png");
-}
-.bookBack
-{
-	background-image: url("../images/thumbnails.png")
-}
 .anniesBack
 {
 	background-image: url("../images/side3 copy.png")
-}
-.tealBack
-{
-	background-image: url("../images/tealside2.png");
 }
 .aboutBack
 {
@@ -99,7 +83,7 @@ body
 }
 .cardBack
 {
-	background-image: url("../images/cardsMockUp.jpg");
+	background-image: url("../images/home3.png");
 }
 .navbar-brand
 {
