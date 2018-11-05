@@ -83,7 +83,7 @@ body
 }
 .cardBack
 {
-	background-image: url("../images/home3.png");
+	background-image: url("../images/Cards-Aligned.png");
 }
 .navbar-brand
 {
@@ -317,5 +317,16 @@ img
 		opacity: 1;
 		transition: none;
 		transform: translateY(0px);
+	}
+}
+@media (min-width: 1200px)
+{
+	.worldDescription p
+	{
+		padding-right: 38%;
+	}
+	.description p
+	{
+		padding-right: 38%;
 	}
 }
