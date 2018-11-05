@@ -1,6 +1,5 @@
-// JavaScript Document
-		$('#design').click(function (e) {
-			$('.dropdown').toggleClass("open");
-			e.preventDefault();
-		});
-
+$('#design').click(function (e)
+{
+	$('.dropdown').toggleClass("open");
+	e.preventDefault();
+});

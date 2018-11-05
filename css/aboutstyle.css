@@ -1,18 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
-html {
+html
+{
 	height: 100%;
 }
-body {
+body
+{
 	height: 100%;
 	background-color: #fff;
 }
-* {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-
+*
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif' !important;
 }
-
-.links {
+em
+{
+	position: relative;
+	left: 100px;
+}
+.links
+{
 	display: block;
 	font-weight: 400;
 	color: #fff;
@@ -22,7 +29,8 @@ body {
 	padding-right: 20%;
 	text-decoration: none;
 }
-.background {
+.background
+{
 	height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
@@ -31,30 +39,30 @@ body {
 	position: relative;
 	top: 0;
 }
-
-.aboutBack {
+.aboutBack
+{
 	background-color: #fff;
 	min-height: 100%;
 }
-.navbar-brand {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+.navbar-brand
+{
 	transform: translateX(-50%);
 	left: 50%;
 	position: absolute;
 	display: block;
 	font-weight: lighter;
 	color: dimgrey;
-
 }
-.navbar-brand:active {
+.navbar-brand:active
+{
 	color: dimgrey;
 }
-.bold {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+.bold
+{
 	font-weight: bold;
 }
-
-.aboutDescription {
+.aboutDescription
+{
 	height: 100vh;
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .9);
@@ -62,13 +70,14 @@ body {
 	padding-top: 8%;
 	font-weight: 400;
 }
-.aboutDescription h1 {
+.aboutDescription h1
+{
 	color:#08655B;
 	font-weight: 700;
 	letter-spacing: 3px;
-
 }
-.aboutDescription p {
+.aboutDescription p
+{
 	padding-right: 10%;
 	padding-bottom: 2%;
 	font-size: 1.4em;
@@ -76,35 +85,42 @@ body {
 	font-weight: 700;
 	color:#08655B;
 }
-.rightCol {
+.rightCol
+{
 	padding-left: 11% !important;
 }
-.firstphoto img {
+.firstphoto img
+{
 	width: 100%;
 	height: auto;
 	position: absolute;
 	align-content: center;
 }
-.photo img {
+.photo img
+{
 	width: auto;
 	height: 100%;
 	position: absolute;
 	align-content: center;
 }
-img {
+img
+{
 	display: block;
 	align-content: center;
 	padding: 0 auto;
 }
-.smallPic {
+.smallPic
+{
 	width: 100%;
 	height: auto;
 }
-.smallhPic {
+.smallhPic
+{
 	height: 100%;
 	width: auto;
 }
-.parent {
+.parent
+{
 	width: 30rem;
 	height: 30rem;
 	border-radius: 1%;
@@ -112,94 +128,114 @@ img {
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, .3);
-
 }
-.aboutPic {
-
+.aboutPic
+{
 	width: 70%;
   height: auto;
 	position: relative;
 	margin-top: 5%;
 }
-.aboutText {
+.aboutText
+{
 	padding-left: 5%;
 }
-.aboutText p {
+.aboutText p
+{
 	text-align: left;
 	font-size: 1em;
 	color:#424141;
 }
-.aboutText h3 {
+.aboutText h3
+{
 	text-align: left;
-	color: #AAE8E0;
+	color: #08655B;
 	font-size: 1.2em;
 	font-weight: 300;
 }
-.aboutlittle {
+.aboutlittle
+{
 	font-size: .9em;
 }
-.topPad {
+.topPad
+{
 	padding-top: 8px;
 }
-.aboutBody {
+.aboutBody
+{
 	background-color: #72BDAF;
 }
-hr {
-
+hr
+{
  margin-left: 0;
 }
-@media (max-width: 770px) {
-	.aboutDescription h1 {
+@media (max-width: 770px)
+{
+	.aboutDescription h1
+	{
 		text-align: center;
 		padding-right: 5%;
 	}
-	.aboutDescription p {
+	.aboutDescription p
+	{
 		padding-right: 5%;
 		font-size: 1em;
 	}
-	.aboutPic {
+	.aboutPic
+	{
 		padding-top: 8%;
 		width: 60%;
 		height: auto;
 	}
-	.aboutDescription {
+	.aboutDescription
+	{
 		width: 103%;
 	}
-	.aboutPic {
+	.aboutPic
+	{
 		transform: translateY(-5%);
 	}
 }
-@media (min-width: 1000px) {
-	.aboutPic {
+@media (min-width: 1000px)
+{
+	.aboutPic
+	{
 		transform: translateY(-10%);
 	}
 }
-@media (min-width: 765px) and (max-width: 995px) {
-	.aboutPic {
+@media (min-width: 765px) and (max-width: 995px)
+{
+	.aboutPic
+	{
 		transform: translateY(10%);
 		width: 300px;
 		height: auto;
 	}
 }
-@media (min-width: 460px) and (max-width: 1045px) {
-	.aboutPic {
-	    width: 300px;
+@media (min-width: 460px) and (max-width: 1045px)
+{
+	.aboutPic
+	{
+	  width: 300px;
 		height: auto;
 	}
-	.aboutDescription p {
+	.aboutDescription p
+	{
 		padding-right: 5%;
 		font-size: 1.2em;
 	}
 }
-@media (min-width: 1035px) and (max-width: 1250px) {
-	.aboutPic {
+@media (min-width: 1035px) and (max-width: 1250px)
+{
+	.aboutPic
+	{
 	  width: 350px;
 		height: auto;
 		padding-top: 15%;
 	}
 }
-
-.contactList {
+.contactList
+{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -207,22 +243,25 @@ hr {
 	display: inline;
 	text-align: left;
 }
-.email img {
+.email img
+{
 	padding: 0;
 	margin: 0;
 }
-
-.contactList li {
+.contactList li
+{
 	display: inline;
 	text-align: left;
 	padding: 0;
 	margin: 0;
 }
-.email a {
+.email a
+{
 	text-decoration: none;
 	color: #292727;
 }
-.cv {
+.cv
+{
 	text-decoration: none;
 	color:#08655B;
 	font-size: 1.4em;
@@ -231,70 +270,89 @@ hr {
 	transition-duration: 200ms;
 	transition-timing-function: ease-in;
 }
-.cv:hover, .cv:focus {
+.cv:hover, .cv:focus
+{
 	text-decoration: none;
 	color:#08655B;
 	letter-spacing: 2px;
 }
-@media (min-width: 1350px) and (max-width: 1420px) {
-	.aboutPic {
-	    width: 550px;
+@media (min-width: 1350px) and (max-width: 1420px)
+{
+	.aboutPic
+	{
+	  width: 550px;
 		height: auto;
 	}
 }
-@media (min-width: 1400px) {
-	.aboutText p {
+@media (min-width: 1400px)
+{
+	.aboutText p
+	{
 	font-size: 1.3em;
 	}
-	.aboutPic {
-	    width: 600px;
+	.aboutPic
+	{
+	  width: 600px;
 		height: auto;
 	}
-	.aboutDescription p {
+	.aboutDescription p
+	{
 		padding-right: 5%;
 		font-size: 1.7em;
 	}
-	.cv {
+	.cv
+	{
 		font-size: 1.7em;
 	}
 }
-@media (min-width: 1750px) {
-	.aboutText p {
+@media (min-width: 1750px)
+{
+	.aboutText p
+	{
 	font-size: 1.2em;
 	}
-	.aboutPic {
-	    width: 5500px;
+	.aboutPic
+	{
+	  width: 5500px;
 		height: auto;
 	}
-	.aboutDescription p {
+	.aboutDescription p
+	{
 		padding-right: 5%;
 		font-size: 1.9em;
 	}
-	.para {
+	.para
+	{
 		position: relative;
 		right: 8%;
 	}
-	.cv {
+	.cv
+	{
 		font-size: 1.7em;
 	}
 }
-@media (min-width: 1900px) {
-	.aboutText p {
+@media (min-width: 1900px)
+{
+	.aboutText p
+	{
 	font-size: 1.4em;
 	}
-	.aboutText h3 {
+	.aboutText h3
+	{
 	font-size: 1.5em;
 	}
-	.aboutPic {
-	    width: 700px;
+	.aboutPic
+	{
+	  width: 700px;
 		height: auto;
 	}
-	.aboutDescription p {
+	.aboutDescription p
+	{
 		padding-right: 5%;
 		font-size: 2em;
 	}
-	.cv {
+	.cv
+	{
 		font-size: 1.8em;
 	}
-
 }

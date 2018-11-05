@@ -1,22 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
-html {
+html
+{
 	height: 100%;
 }
-body {
+body
+{
 	height: 100%;
 	background-color: #fff;
 }
-* {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	
+*
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif' !important;
 }
-.animation-element {
+.animation-element
+{
   opacity: 0;
   position: relative;
 }
-
-.links {
+.links
+{
 	display: block;
 	font-weight: 400;
 	color: #fff;
@@ -26,7 +29,8 @@ body {
 	padding-right: 20%;
 	text-decoration: none;
 }
-.background {
+.background
+{
 	height: 100vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -36,170 +40,187 @@ body {
 	position: relative;
 	top: 0;
 }
-.olympicBack {
+.olympicBack
+{
 	background-image: url("../images/1998_Nagano_Winter_Olympics_logo.png");
 }
-.worldmusicBack {
+.worldmusicBack
+{
 	background-image: url("../images/Bus Stop Billboard MockUp.jpg");
 }
-.abstractBack {
+.abstractBack
+{
 	background-image: url("../images/For the love of type!.jpg");
 }
-.conquestBack {
+.conquestBack
+{
 	background-image: url("../images/conquest1.png");
 }
-.specBack {
+.specBack
+{
 	background-image: url("../images/brochure2.png");
 }
-.gridBack {
-	background-image: url("../images/A4 Paper PSD MockUp 4.jpg")
-}
-.eventBack {
-	background-image: url("../images/Announcement2.jpg");
-}
-.unBack {
+.unBack
+{
 	background-image: url("../images/Page1.png")
 }
-.organicBack {
+.organicBack
+{
 	background-image: url("../images/graph sketch.jpg");
 }
-.signBack {
+.signBack
+{
 	background-image: url("../images/StreetSigns.jpg");
 }
-.zineBack {
+.zineBack
+{
 	background-image: url("../images/1984.jpg");
 }
-.fineartBack {
+.fineartBack
+{
 	background-image: url("../images/Preserving Culture.png");
 }
-.mushiBack {
-	background-image: url("../images/mushi1.png");
-}
-.bookBack {
+.bookBack
+{
 	background-image: url("../images/thumbnails.png")
 }
-.anniesBack {
+.anniesBack
+{
 	background-image: url("../images/side3 copy.png")
 }
-.tealBack {
+.tealBack
+{
 	background-image: url("../images/tealside2.png");
 }
-.aboutBack {
+.aboutBack
+{
 	background-color: #72BDAF;
 	min-height: 110%;
 }
-.cardBack {
+.cardBack
+{
 	background-image: url("../images/cardsMockUp.jpg");
 }
-.hamerBack {
-	background-image: url("../images/Branding Identity Mockup copy 2.png");
-}
-.navbar-brand {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+.navbar-brand
+{
 	transform: translateX(-50%);
 	left: 50%;
 	position: absolute;
 	display: block;
 	font-weight: lighter;
 	color: dimgrey;
-	
 }
-.navbar-brand:active {
+.navbar-brand:active
+{
 	color: dimgrey;
 }
-.bold {
-	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+.bold
+{
 	font-weight: bold;
 }
-.description {
+.description
+{
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .9);
 	padding-left: 5%;
 	padding-top: 8%;
 	font-weight: 400;
 }
-.description h1 {
+.description h1
+{
 	color:#08655B;
 	font-weight: 700;
 	letter-spacing: 1px;
-	
 }
-.description h6 {
+.description h6
+{
 	font-weight: 700;
 	font-size: 1.3em;
 }
-.description p{
+.description p
+{
 	color: #08655B;
 	padding-right: 5%;
 	font-size: 2em;
 	line-height: 1.6em;
 	font-weight: 700;
 }
-.worldDescription {
+.worldDescription
+{
 	min-height: 100%;
 	background-color: rgba(255, 255, 255, .7);
 	padding-left: 5%;
 	padding-top: 8%;
 	font-weight: 400;
 }
-.worldDescription h1 {
+.worldDescription h1
+{
 	color:#08655B;
 	font-weight: 700;
 	letter-spacing: 1px;
-	
 }
-.worldDescription h6 {
+.worldDescription h6
+{
 	font-weight: 700;
 	font-size: 1.3em;
 }
-.worldDescription p{
+.worldDescription p
+{
 	color: #08655B;
 	padding-right: 5%;
 	font-size: 2em;
 	line-height: 1.6em;
 	font-weight: 700;
 }
-.firstphoto img {
+.firstphoto img
+{
 	width: 100%;
 	height: auto;
 	position: absolute;
 	align-content: center;
 }
-.photo img {
+.photo img
+{
 	width: auto;
 	height: 100%;
 	position: absolute;
 	align-content: center;
 }
-img {
+img
+{
 	display: block;
 	align-content: center;
 	margin: 0 auto;
 	padding: 0 auto;
 }
-.animation-element.fadeIn{
+.animation-element.fadeIn
+{
 	opacity: 0;
 	transform: translateY(300px);
 	transition: all 400ms linear;
 }
-.animation-element.fadeIn.in-view {
-	opacity: 1;	
+.animation-element.fadeIn.in-view
+{
+	opacity: 1;
 	transform: translateY(0);
 }
-
-.smallPic {
+.smallPic
+{
 	width: 100%;
 	height: auto;
 }
-.smallPic2 {
+.smallPic2
+{
 	width: 100%;
 	height: auto;
 }
-.smallhPic {
+.smallhPic
+{
 	height: 100%;
 	width: auto;
 }
-.parent {
+.parent
+{
 	width: 30rem;
 	height: 30rem;
 	border-radius: 1%;
@@ -208,93 +229,107 @@ img {
 	margin: 0 auto;
 	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, .3);
 }
-.parent2 {
-	width: 30rem;
-	height: 50rem;
+.parent2
+{
+	width: 300px;
+	height: 300px;
 	border-radius: 1%;
 	overflow: hidden;
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, .3);
 }
-.caption {
+.caption
+{
 	width: 9rem;
 	height: 1rem;
 	display: block;
 	margin: 0 auto;
 }
-.caption p {
+.caption p
+{
 	font-size: .8em;
 }
-
-@media (max-width: 770px) {
-	.mobileView {
-		padding-bottom: 5%;
-	}
-	.description h1, .worldDescription h1  {
-		text-align: center;
-		padding-top: 10%;
-		padding-right: 5%;
-		
-	}
-	.description h6, .worldDescription h6 {
-		text-align: center;
-		padding-right: 11%;
-
-	}
-	.description p {
-		padding-right: 10%;
-		padding-left: 5%;
-		padding-top: 10%;
-		font-size: 1.3em;
-	}
-	.worldDescription p {
-		padding-right: 10%;
-		padding-left: 5%;
-		padding-top: 10%;
-		font-size: 1.1em;
-	}
-	.caption {
-		padding: 10% 0%;
-		width: 100%;
-	}
-	.caption p {
-		font-size: 1.5em;
-		text-align: center;
-		margin: 0% auto;
-		padding-bottom: 5%;
-	}
-	img {
-		max-width: 100%;
-	}
-	html, body {
-		overflow-x: hidden;
-		width: 100%;
-		height: 100%;
-	}
-
-.wrap {
-		width: 100%;
-		height: 100%;
-		overflow: scroll;
-	}
-}
-.bodyText p{
+.bodyText p
+{
 	color:#08655B;
 	font-size: .9em;
 	width: 100%;
 	text-align: left;
 	padding: 2% 22%;
 }
-.bodyText h3 {
+.bodyText h3
+{
 	color:#08655B;
 	font-weight: 300;
 	letter-spacing: 1px;
 	padding: 0 auto;
 	text-align: center;
 }
-@media (max-width: 420px) {
-	.animation-element.fadeIn {
+@media (max-width: 770px)
+{
+	.mobileView
+	{
+		padding-bottom: 5%;
+	}
+	.description h1, .worldDescription h1
+	{
+		text-align: center;
+		padding-top: 10%;
+		padding-right: 5%;
+	}
+	.description h6, .worldDescription h6
+	{
+		text-align: center;
+		padding-right: 11%;
+	}
+	.description p
+	{
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-top: 10%;
+		font-size: 1.3em;
+	}
+	.worldDescription p
+	{
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-top: 10%;
+		font-size: 1.1em;
+	}
+	.caption
+	{
+		padding: 10% 0%;
+		width: 100%;
+	}
+	.caption p
+	{
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0% auto;
+		padding-bottom: 5%;
+	}
+	img
+	{
+		max-width: 100%;
+	}
+	html, body
+	{
+		overflow-x: hidden;
+		width: 100%;
+		height: 100%;
+	}
+	.wrap
+	{
+		width: 100%;
+		height: 100%;
+		overflow: scroll;
+	}
+}
+@media (max-width: 420px)
+{
+	.animation-element.fadeIn
+	{
 		opacity: 1;
 		transition: none;
 		transform: translateY(0px);

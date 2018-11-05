@@ -1,14 +1,17 @@
 @charset "UTF-8";
-.navbar-custom {
+.navbar-custom
+{
 	background-color: none;
 	color:#0000;
 	border-radius: 0;
 	border: 0;
 }
-.navbar li {
+.navbar li
+{
 	list-style-type: none;
 }
-.navbar-brand {
+.navbar-brand
+{
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	transform: translateX(-50%);
 	left: 50%;
@@ -16,13 +19,13 @@
 	display: block;
 	font-weight: lighter;
 	color: dimgrey;
-
 }
-.navbar-brand:hover {
+.navbar-brand:hover
+{
 	color: white;
 }
-
-.nav-pills > li > a {
+.nav-pills > li > a
+{
 	font-size: .8em;
 	color: dimgray;
 	transition: all;
@@ -31,80 +34,92 @@
 	padding-left: 15%;
 	padding-right: 0%;
 }
-.nav-pills > li > a:hover {
+.nav-pills > li > a:hover
+{
 	font-size: .8em;
 	color: #09421E;
 	text-decoration: none;
 	letter-spacing: 2px;
 	background-color: #fff;
 }
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus  {
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+{
 	background-color: transparent !important;
 }
-.nav-pills > li > a:focus {
+.nav-pills > li > a:focus
+{
 	font-size: .8em;
 	color: #08655B;
 	text-decoration: none;
 	letter-spacing: 2px;
 	background-color: #fff;
 }
-.subLinks {
+.subLinks
+{
+	position: relative;
+	left: 20px;
 	padding-top: 2% !important;
 	transition: none !important;
 }
-.subLinks:hover, .subLinks:focus {
+.subLinks:hover, .subLinks:focus
+{
 	letter-spacing: 0 !important;
 }
-.dropdown-menu {
+.dropdown-menu
+{
 	background-color: #fff;
 	border: none;
 	box-shadow: 0 0 0 0 transparent;
 }
-
-.overlay {
+.overlay
+{
 	float: right;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
-
-#icon {
+#icon
+{
 	top: 3%;
 	display: inline-block;
 	position: fixed;
 	z-index: 10;
 }
-#icon img {
+#icon img
+{
 	width: 30px;
 	height: auto;
 }
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: left;
-    margin-top: 30px;
+.overlay-content
+{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
 }
-
-.overlay li {
+.overlay li
+{
 	list-style-type: none;
 }
-
-.overlay .closebtn {
-    position: absolute;
+.overlay .closebtn
+{
+  position: absolute;
 	bottom: 90%;
-    right: 70%;
+  right: 70%;
 }
-.navbar-brand:active {
+.navbar-brand:active
+{
 	color: dimgrey;
 }
-.category {
+.category
+{
 	padding-left: 15% !important;
 	width: 115px !important;
 }
